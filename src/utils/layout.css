@@ -1,0 +1,104 @@
+.common-spacing {
+	padding: 1rem 1.5rem;
+}
+.image-objectfit-contain img{
+	object-fit: contain;
+}
+html.has-navbar-fixed-top,
+body.has-navbar-fixed-top {
+	padding-top: 5.5rem;
+}
+.is-flex{
+	display: flex;
+}
+.is-justified-center{
+	justify-content: center;
+}
+.hero.is-light .title {
+    text-transform: capitalize;
+}
+.p-0-10 {
+    padding: 0 10px;
+}
+.media-left{
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.media-content {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+}
+.media {
+    align-items: flex-start;
+    display: flex;
+    text-align: left;
+}
+a {
+    color: #000000;
+}
+.navbar-start {
+    margin-left: auto;
+    margin-right: unset !important;
+  }
+.react-share__ShareButton{
+    margin-right: 8px;
+}
+.panel-block {
+    border: none !important;
+}
+.title.is-4 {
+    font-size: 20px;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+    .common-spacing {
+        padding: 5px;
+    }
+    .hero-body {
+        padding: 5px;
+    }
+    .section {
+        padding: 5px;
+    }
+    .title {  
+        font-size: 20px;  
+    }
+    .content h2 {
+        font-size: 20px;
+    }
+    .content.is-medium {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  
+    .title.is-4 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .title.is-4 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .title.is-4 {
+        font-size: 12px;
+    }
+}
