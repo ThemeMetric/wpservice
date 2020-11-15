@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://shweb.me">
-    <img alt="WPService" src="./src/images/logo.png" width="200" />
+    <img alt="SHWEB" src="./src/images/logo.png" width="200" />
   </a>
 </p>
 
