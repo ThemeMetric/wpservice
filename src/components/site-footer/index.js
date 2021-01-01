@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
   FacebookIcon,
-  TwitterIcon,
+
   LinkedinIcon,
-	PinterestIcon,
-} from 'react-share'
+  PinterestIcon, TwitterIcon
+} from 'react-share';
   
 export default class Footer extends Component {
     
@@ -14,7 +14,7 @@ export default class Footer extends Component {
         <footer className="footer">
           <div className="content has-text-centered">
             <p>
-             @ Copyright <strong>{siteName ? siteName : "Infointeriors"}</strong>. 
+             @ Copyright <strong>{siteName ? siteName : "WPSERVICE"}</strong>. 
               
             </p>
           </div>
