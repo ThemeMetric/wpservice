@@ -24,7 +24,7 @@ class About extends Component {
                           <h2>Get in Touch with Us</h2>
                           <p>If you have any question, or feedback, feel free to contact us!</p>                                           
                             <div className="customForm">
-                            <form name="contact" netlify>
+                            <form name="contact" method="POST" data-netlify="true">
                             <div className="field">
                               <div className="control">
                               <input id="name" name="name" className="input" type="text" placeholder="Name"/>
