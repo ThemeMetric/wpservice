@@ -1,7 +1,7 @@
+import { graphql } from "gatsby"
 import React, { Component } from 'react'
 import Layout from '../layouts/index'
 import SEO from "../utils/seo"
-import { graphql } from "gatsby"
 
 class About extends Component {
     
@@ -24,6 +24,7 @@ class About extends Component {
                           <h2>Get in Touch with Us</h2>
                           <p>If you have any question, or feedback, feel free to contact us!</p>                                           
                             <div className="customForm">
+                            <form name="contact" netlify>
                             <div className="field">
                               <div className="control">
                               <input id="name" name="name" className="input" type="text" placeholder="Name"/>
@@ -50,6 +51,7 @@ class About extends Component {
                                 <button className="button is-link is-light">Cancel</button>
                               </div>
                             </div>
+                            </form>
                             </div>                     
                           </div>
                           </div>
