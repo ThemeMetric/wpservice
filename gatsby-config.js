@@ -4,7 +4,7 @@ require("dotenv").config({
 })
 module.exports = { 
   siteMetadata: {
-    title: `Infointeriors`,
+    title: `WPSERVICE`,
     description : `Hire a Freelance Developer for Programming Jobs`,
     author : `@ThemeMetric`,
     siteUrl: `https://wpservice.shweb.me`,
