@@ -13,8 +13,8 @@ class NotFoundPage extends Component {
 				<div className="hero-body">
 				<div className="container">
 				<div className="columns">
-                <div className="column is-offset-2 is-8">
-				       <img src="https://i.postimg.cc/mgXj66R6/success.png" alt="contact"/> 
+                <div className="column is-offset-2 is-8 has-text-centered">
+				       <img src="https://i.postimg.cc/Dw3VC0vM/404.png" alt="404"/> 
 				       <h1 className="title"> 404 </h1>
 						<h2 className="subtitle"> Page not found! </h2>
 				</div>

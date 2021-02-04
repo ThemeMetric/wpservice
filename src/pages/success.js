@@ -13,9 +13,6 @@ class About extends Component {
                 <section className="heros">
                     <div className="hero-body">                       
                           <div className="container">
-                          <div className="section has-text-centered header">
-                          <h1 className="title">Success</h1>                         
-                          </div>
                           <div className="section hero-content">
                           <div className="columns">
                           <div className="column is-offset-2 is-8">
