@@ -7,7 +7,7 @@ class About extends Component {
     
   render() {
     return (		
-           <Layout wordpressSiteMetadataContact={this.props.data.wordpressSiteMetadata}>
+           <Layout wordpressSiteMetadataSuccess={this.props.data.wordpressSiteMetadata}>
              
              <SEO title="Contact" />
                 <section className="hero">
@@ -39,7 +39,7 @@ class About extends Component {
 export default About
 
 export const categoryQuery = graphql`
-  query wordpressSiteMetadataContact{
+  query wordpressSiteMetadataSuccess{
 
 		wordpressSiteMetadata{
 			name
