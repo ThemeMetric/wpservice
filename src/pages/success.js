@@ -9,18 +9,17 @@ class About extends Component {
     return (		
            <Layout wordpressSiteMetadataSuccess={this.props.data.wordpressSiteMetadata}>
              
-             <SEO title="Contact" />
-                <section className="hero">
+             <SEO title="Success" />
+                <section className="heros">
                     <div className="hero-body">                       
                           <div className="container">
                           <div className="section has-text-centered header">
-                          <h1 className="title">Success</h1>
-                          
+                          <h1 className="title">Success</h1>                         
                           </div>
                           <div className="section hero-content">
                           <div className="columns">
                           <div className="column is-offset-2 is-8">
-                          <div className="post content is-medium">
+                          <div className="post content is-medium has-text-centered">
                           <h2>Thanks! Your message has been sent.</h2>
                           <img src="https://i.postimg.cc/1zZMDZ3w/success.png" alt="contact"></img>                                                      
                           </div>

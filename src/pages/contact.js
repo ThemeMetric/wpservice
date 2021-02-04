@@ -32,20 +32,20 @@ class About extends Component {
                             action="/success">
                             <div className="field">
                               <div className="control">
-                              <input id="name" name="name" className="input" type="text" placeholder="Name"/>
+                              <input id="name" name="name" className="input" type="text" placeholder="Name" required=""/>
                               </div>
                             </div>
 
                             <div className="field">                           
                               <div className="control has-icons-left has-icons-right">
-                                <input id="email" name="email" className="input" type="email" placeholder="Email"/>
+                                <input id="email" name="email" className="input" type="email" placeholder="Email" required=""/>
                               </div>
                             </div>
 
                             <div className="field">
                               
                               <div className="control">
-                                <textarea name="message" className="textarea" placeholder="Message"></textarea>
+                                <textarea name="message" className="textarea" placeholder="Message" required=""></textarea>
                               </div>
                             </div>
                             <div className="field is-grouped">
