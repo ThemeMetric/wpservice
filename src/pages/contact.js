@@ -15,7 +15,7 @@ class About extends Component {
                           <div className="container">
                           <div className="section has-text-centered header">
                           <h1 className="title">Contact</h1>
-                          <img src="https://i.postimg.cc/cHFK1fz6/contact.png" alt="contact"></img>
+                          <img src="https://i.postimg.cc/cHFK1fz6/contact.png" alt="contact"/>
                           </div>
                           <div className="section hero-content">
                           <div className="columns">
