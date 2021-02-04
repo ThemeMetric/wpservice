@@ -21,7 +21,7 @@ class About extends Component {
                           <div className="column is-offset-2 is-8">
                           <div className="post content is-medium has-text-centered">
                           <h2>Thanks! Your message has been sent.</h2>
-                          <img src="https://i.postimg.cc/1zZMDZ3w/success.png" alt="contact"></img>                                                      
+                          <img src="https://i.postimg.cc/mgXj66R6/success.png" alt="contact"></img>                                                      
                           </div>
                           </div>
                           </div>
