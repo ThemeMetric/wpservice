@@ -52,7 +52,9 @@ a {
 .title.is-4 {
   font-size: 20px;
 }
-
+.image.is-3by1 {
+  padding-top: 55% !important;
+}
 /* Responsive css */
 @media screen and (max-width: 1200px) {
 }
