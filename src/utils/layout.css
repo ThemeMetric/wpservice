@@ -53,7 +53,7 @@ a {
   font-size: 20px;
 }
 .image.is-3by1 {
-  padding-top: 55% !important;
+  padding-top: 60% !important;
 }
 /* Responsive css */
 @media screen and (max-width: 1200px) {
