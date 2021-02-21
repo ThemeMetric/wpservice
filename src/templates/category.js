@@ -1,9 +1,9 @@
+import { graphql } from "gatsby"
 import React, { Component } from 'react'
-import Layout from "../layouts/index"
-import SEO from "../utils/seo"
 import AllPost from "../components/all-post/index"
 import PageTitle from "../components/page-title/index"
-import { graphql } from "gatsby"
+import Layout from "../layouts/index"
+import SEO from "../utils/seo"
 
 class CategoryPage extends Component {
     
@@ -15,7 +15,7 @@ class CategoryPage extends Component {
     return (
         <Layout wordpressSiteMetadata={this.props.pageContext.wordpressSiteMetadata}>
         
-        	<SEO title="Category Page" />
+        	<SEO title={category.name} />
         	
         	<PageTitle title={category.name} subtitle={category.description} />
 

@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+import React, { Component } from 'react';
 
 export default class AllPost extends Component {
     
@@ -20,7 +20,7 @@ export default class AllPost extends Component {
                         node.node.spark_media === undefined ? null :
                         <div className="card-image">
                           <figure className="image">
-                            <img src={node.node.spark_media} alt={data.title} />
+                            <img width="100%" height="auto" src={node.node.spark_media} alt={data.title} />
                           </figure>
                         </div>
                       }
@@ -28,7 +28,7 @@ export default class AllPost extends Component {
                         <div className="media">
                           <div className="media-left">
                             <figure className="image is-48x48">
-                              <img className="is-rounded" src={node.node.spark_user.avatar_urls.wordpress_96} alt={node.node.spark_user.name}/>
+                              <img width="100%" height="auto" className="is-rounded" src={node.node.spark_user.avatar_urls.wordpress_96} alt={node.node.spark_user.name}/>
                             </figure>
                           </div>
                           <div className="media-content">
