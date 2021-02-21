@@ -20,7 +20,7 @@ export default class AllPost extends Component {
                         node.node.spark_media === undefined ? null :
                         <div className="card-image">
                           <figure className="image">
-                            <img width="564px" height="317px" src={node.node.spark_media} alt={data.title} />
+                            <img width="564" height="317" src={node.node.spark_media} alt={data.title} />
                           </figure>
                         </div>
                       }
@@ -28,7 +28,7 @@ export default class AllPost extends Component {
                         <div className="media">
                           <div className="media-left">
                             <figure className="image is-48x48">
-                              <img width="96px" height="96px" className="is-rounded" src={node.node.spark_user.avatar_urls.wordpress_96} alt={node.node.spark_user.name}/>
+                              <img width="96" height="96" className="is-rounded" src={node.node.spark_user.avatar_urls.wordpress_96} alt={node.node.spark_user.name}/>
                             </figure>
                           </div>
                           <div className="media-content">
