@@ -20,7 +20,7 @@
 
 To install gatsby CLI globaly.
 
-```infointeriors
+```wpservice
 npm install -g gatsby-cli
 ```
 
@@ -30,7 +30,7 @@ npm install -g gatsby-cli
 
     Use the Gatsby CLI to create a new site.
 
-    ```infointeriors
+    ```wpservice
     # create a new Gatsby site using theme callisto
     gatsby new infointeriors https://github.com/ThemeMetric/wpservice.git
     ```
