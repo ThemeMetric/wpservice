@@ -1,19 +1,19 @@
-let token = process.argv[process.argv.length-1]
+let token = process.argv[process.argv.length - 1];
 require("dotenv").config({
   path: `env/.env.${token}`,
-})
-module.exports = { 
+});
+module.exports = {
   siteMetadata: {
     title: `WPSERVICE`,
-    description : `Hire a Freelance Developer for Programming Jobs`,
-    author : `@ThemeMetric`,
+    description: `Hire a Freelance Developer for Programming Jobs`,
+    author: `@ThemeMetric`,
     siteUrl: `https://wpservice.shweb.me`,
     disqusShortname: process.env.disqusShortname,
-    wordpressBaseUrl: `${process.env.protocol}://${process.env.baseUrl}`
+    wordpressBaseUrl: `${process.env.protocol}://${process.env.baseUrl}`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,7 +24,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-image`,
-    `gatsby-plugin-sharp`, 
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-wordpress`,
       options: {
@@ -33,14 +33,14 @@ module.exports = {
         protocol: process.env.protocol,
         hostingWPCOM: false,
         useACF: false,
-        perPage: 100,
+        perPage: 50,
         includedRoutes: [
           "**/site_metadata",
           "**/posts",
           "**/categories",
           "**/taxonomies",
           "**/users",
-          "**/spark"
+          "**/spark",
         ],
         verboseOutput: false,
         // concurrentRequests: 1,
@@ -48,11 +48,11 @@ module.exports = {
         // normalizer: function({ entities }) {
         //   return entities
         // },
-      }
+      },
     },
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
   ],
-}
+};
